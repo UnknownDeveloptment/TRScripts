@@ -60,7 +60,7 @@ Open.Size = UDim2.new(0, 100, 0, 50)
 
 Open.Font = Enum.Font.Sarpanch
 
-Open.Text = "Open"
+Open.Text = "Aç"
 
 Open.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -170,7 +170,7 @@ Close.Size = UDim2.new(0, 50, 0, 50)
 
 Close.Font = Enum.Font.SourceSansSemibold
 
-Close.Text = "Kapat"
+Close.Text = "X"
 
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -268,7 +268,7 @@ TextLabel_3.Size = UDim2.new(0, 458, 0, 79)
 
 TextLabel_3.Font = Enum.Font.Roboto
 
-TextLabel_3.Text = "Enter The Players Name Here"
+TextLabel_3.Text = "Işınlanmak istediğin kişiyi yaz."
 
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 
