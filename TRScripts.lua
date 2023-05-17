@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "TRScripts", HidePremium = false, IntroText = "TRScripts açılıyor...", SaveConfig = true, ConfigFolder = "TRScripts"})
+local Window = OrionLib:MakeWindow({Name = "TRScripts GUİ V1", HidePremium = false, IntroText = "TRScripts GUI V1 açılıyor...", SaveConfig = true, ConfigFolder = "TRScripts"})
 
 local TutTab = Window:MakeTab({
 
