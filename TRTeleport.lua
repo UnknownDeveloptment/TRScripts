@@ -142,7 +142,7 @@ TextLabel_2.Size = UDim2.new(0, 583, 0, 50)
 
 TextLabel_2.Font = Enum.Font.SourceSansItalic
 
-TextLabel_2.Text = "Yapımcı: TurkScripter"
+TextLabel_2.Text = "Yapımcı: TRScripts"
 
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 
@@ -200,7 +200,7 @@ ImageLabel.Position = UDim2.new(-5.47013187e-05, 0, -0.00138611393, 0)
 
 ImageLabel.Size = UDim2.new(0, 75, 0, 50)
 
-ImageLabel.Image = "https://trscripts.unknowndeveloptment.repl.co/TRScripts.png"
+ImageLabel.Image = "rbxassetid://13468978031"
 
 Teleport.Name = "Teleport"
 
