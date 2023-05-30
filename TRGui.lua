@@ -112,6 +112,48 @@ MainTab:AddButton({
 
 })
 
+MainTab:AddButton({
+
+	Name = "Faded Da Hood",
+
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Unique Hub",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Unique-Hub-(14-Gmes)_521"))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Prison Life Admi",	Callback = function()   loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();;
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Nexus Exploits",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/raw-scriptpastebin/raw/main/B_Genesis%27"))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Volatile",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Volatile-10306"))();
+
+  	end    
+
+})
+
 local MainTab = Window:MakeTab({
 
 	Name = "Executors",	Icon = "rbxassetid://13468978031",
@@ -128,6 +170,31 @@ MainTab:AddButton({
 
 })
 
+local MainTab = Window:MakeTab({
+
+	Name = "Universal",	Icon = "rbxassetid://13468978031",
+
+	PremiumOnly = false
+
+})
+
+MainTab:AddButton({
+
+	Name = "Infinite Yield",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Universal Hub",
+
+	Callback = function()   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua"))();
+
+  	end    
+
+})
 local CreditsTab = Window:MakeTab({
 
 	Name = "Krediler",
