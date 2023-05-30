@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V1 Açılıyor.....",Name = "TRGui BETA V1", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
+local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V3 is loading.....",Name = "TRGui BETA V3", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
 
 -- Tabs
 
@@ -36,7 +36,7 @@ MainTab:AddButton({
 
 local MainTab = Window:MakeTab({
 
-	Name = "Mobil",
+	Name = "Mobile",
 
 	Icon = "rbxassetid://13468978031",
 
@@ -56,7 +56,7 @@ MainTab:AddButton({
 
 MainTab:AddButton({
 
-	Name = "Klavye",
+	Name = "Keyboard",
 
 	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Pc-keyboard-script-not-mine-10934"))()
 
@@ -66,7 +66,7 @@ MainTab:AddButton({
 
 local MainTab = Window:MakeTab({
 
-	Name = "Oyunlar",
+	Name = "Games",
 
 	Icon = "rbxassetid://13468978031",
 
@@ -76,7 +76,7 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Buz Hub",
+	Name = "Ice Hub",
 
 	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))();
 
@@ -132,7 +132,7 @@ MainTab:AddButton({
 
 MainTab:AddButton({
 
-	Name = "Prison Life Admi",	Callback = function()   loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+	Name = "Prison Life Admin",	Callback = function()   loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
 
   	end    
 
@@ -149,6 +149,14 @@ MainTab:AddButton({
 MainTab:AddButton({
 
 	Name = "Volatile",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Volatile-10306"))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Ohio Script Edited",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/sunexn/ohio./main/ohio.lua",true))();
 
   	end    
 
@@ -198,7 +206,7 @@ MainTab:AddButton({
 
 local CreditsTab = Window:MakeTab({
 
-	Name = "Krediler",
+	Name = "Credits",
 
 	Icon = "rbxassetid://13468978031",
 
@@ -208,9 +216,9 @@ local CreditsTab = Window:MakeTab({
 
 OrionLib:MakeNotification({
 
-	Name = "TRScripts'ten bir mesaj!",
+	Name = "A message from TRScripts",
 
-	Content = "TRScripts Beta V1'i kullandığınız için teşekkür ederiz!",
+	Content = "Thanks for using TRGui BETA V3!",
 
 	Image = "rbxassetid://13468978031",
 
@@ -218,7 +226,7 @@ OrionLib:MakeNotification({
 
 })
 
-CreditsTab:AddParagraph("Krediler"," TRScripts (Yapımcı) ")
+CreditsTab:AddParagraph("Credits: "," TRScripts | The Owner")
 
 coroutine.resume(NotificationCoroutine)
 
