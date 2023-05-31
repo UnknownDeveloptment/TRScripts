@@ -25,7 +25,7 @@ MainTab:AddButton({
 		
 MainTab:AddButton({
 
-	Name = "🇹🇷Türkçe🇹🇷",
+	Name = "🇹🇷Türkçe🇨🇾",
 
 	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/TRGuiTR.lua"))();
 
