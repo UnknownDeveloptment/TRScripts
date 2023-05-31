@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V3 is loading.....",Name = "TRGui BETA V3", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
+local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V3 is loading.....",Name = "🇺🇸TRGui BETA V3🇬🇧", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
 
 -- Tabs
 
