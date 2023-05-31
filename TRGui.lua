@@ -5,7 +5,7 @@ local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V3 is loading...../T
 -- Tabs
 
 local MainTab = Window:MakeTab({
-xdf 
+ 
 	Name = "Languages/Diller",    Icon = "rbxassetid://13468978031",
 
 	PremiumOnly = false
@@ -45,9 +45,9 @@ local CreditsTab = Window:MakeTab({
 
 OrionLib:MakeNotification({
 
-	Name = "A message from TRScripts! /TRScripts'ten bir mesaj!",
+	Name = "A message from TRScripts!",
 
-	Content = "Thanks for using TRGui BETA V3!/TRGui BETA V3'ü kullandığınız için teşşekürler!",
+	Content = "Thanks for using TRGui BETA V3!",
 
 	Image = "rbxassetid://13468978031",
 
@@ -55,7 +55,19 @@ OrionLib:MakeNotification({
 
 })
 
-CreditsTab:AddParagraph("Credits: "," TRScripts | The Owner")
+OrionLib:MakeNotification({
+
+	Name = "TRScripts'ten bir mesaj!",
+		
+        Content = "TRGui VEYA V3'ü kullandığınız için teşekkürler!",
+
+	Image = "rbxassetid://13468978031",
+
+	Time = 5
+
+})
+
+CreditsTab:AddParagraph("Credits/Krediler: "," TRScripts | The Owner/Yapımcı")
 
 coroutine.resume(NotificationCoroutine)
 
