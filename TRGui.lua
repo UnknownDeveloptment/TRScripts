@@ -16,7 +16,7 @@ xdf
 
 MainTab:AddButton({
 
-	Name = "🇺🇸English 🇬🇧",
+	Name = "🇺🇸English🇬🇧",
 
 	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/TRGuiENG.lua"))();
 
