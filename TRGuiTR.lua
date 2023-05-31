@@ -172,7 +172,7 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Arceus X",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Arceus-X-v3-UI-9331"))();
+	Name = "Arkus X",	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Arceus-X-v3-UI-9331"))();
 
   	end    
 
@@ -188,7 +188,7 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Sonsuz Verim"	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))();
+	Name = "Sonsuz Verim", 	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))();
 
   	end    
 
