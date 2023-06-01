@@ -1,12 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V3 is loading...../TRGui BETA V3 açılıyor.....",Name = "TRGui BETA V3", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
+local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V4 is loading....." Name = "🌎TRGui BETA V4🌏", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
 
 -- Tabs
 
 local MainTab = Window:MakeTab({
  
-	Name = "Languages/Diller",    Icon = "rbxassetid://13468978031",
+	Name = "Languages",    Icon = "rbxassetid://13468978031",
 
 	PremiumOnly = false
 
@@ -33,9 +33,17 @@ MainTab:AddButton({
 
 })
 
+MainTab:AddButton({
+
+	Name = "🇪🇸Español🇲🇽",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/TRGuiES.lua"))();
+
+  	end    
+
+})
+
 local CreditsTab = Window:MakeTab({
 
-	Name = "Credits/Krediler",
+	Name = "Credits",
 
 	Icon = "rbxassetid://13468978031",
 
@@ -54,20 +62,8 @@ OrionLib:MakeNotification({
 	Time = 5
 
 })
-
-OrionLib:MakeNotification({
-
-	Name = "TRScripts'ten bir mesaj!",
 		
-        Content = "TRGui VEYA V3'ü kullandığınız için teşekkürler!",
-
-	Image = "rbxassetid://13468978031",
-
-	Time = 5
-
-})
-
-CreditsTab:AddParagraph("Credits/Krediler: "," TRScripts | The Owner/Yapımcı")
+CreditsTab:AddParagraph("Credits: "," TRScripts | The Owner")
 
 coroutine.resume(NotificationCoroutine)
 
