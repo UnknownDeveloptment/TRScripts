@@ -218,7 +218,7 @@ OrionLib:MakeNotification({
 
 	Name = "TRScripts'ten bir mesaj!",
 
-	Content = "TRGui BETA V3'ü kullandığın için teşşekürler!",
+	Content = "TRGui BETA V4'ü kullandığın için teşşekürler!",
 
 	Image = "rbxassetid://13468978031",
 
