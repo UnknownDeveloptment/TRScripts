@@ -46,7 +46,7 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Bloqueo de mayúsculas"',
+	Name = "Bloqueo de mayúsculas",
 
 	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Shiftlock-Mobile-8892"))();
 
