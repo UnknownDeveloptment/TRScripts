@@ -6,7 +6,7 @@ local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V4 is loading.....",
 
 local MainTab = Window:MakeTab({
 
-	Name = "TRScripts",	Icon = "rbxassetid://13468978031",
+	Name = "Quick Hacks",	Icon = "rbxassetid://13468978031",
 
 	PremiumOnly = false
 
@@ -14,23 +14,51 @@ local MainTab = Window:MakeTab({
 
 -- Button
 
-MainTab:AddButton({
+PlayerTab:AddSlider({
 
-	Name = "TRFly",
+ Name = "WalkSpeed",
 
-	Callback = function()   loadstring(game:HttpGet("https://trscripts.unknowndeveloptment.repl.co/TRScripts/raw/TRFly"))();
+ Min = 16,
 
-  	end    
+ Max = 1000000000,
+
+ Default = 16,
+
+ Color = Color3.fromRGB(0,204,255),
+
+ Increment = 1,
+
+ ValueName = "WS",
+
+ Callback = function(Value)
+
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
+ end    
 
 })
 
-MainTab:AddButton({
+PlayerTab:AddSlider({
 
-	Name = "TRTeleport",
+ Name = "Jump Power",
 
-	Callback = function()   loadstring(game:HttpGet("https://trscripts.unknowndeveloptment.repl.co/TRScripts/raw/TRTeleport"))();
+ Min = 16,
 
-  	end    
+ Max = 1000000000,
+
+ Default = 5,
+
+ Color = Color3.fromRGB(0,255,0),
+
+ Increment = 1,
+
+ ValueName = "Height",
+
+ Callback = function(Value)
+
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+ end    
 
 })
 
