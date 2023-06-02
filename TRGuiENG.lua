@@ -14,51 +14,13 @@ local MainTab = Window:MakeTab({
 
 -- Button
 
-PlayerTab:AddSlider({
+MainTab:AddButton({
 
- Name = "WalkSpeed",
+	Name = "Build Tools",
 
- Min = 16,
+	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))();
 
- Max = 1000000000,
-
- Default = 16,
-
- Color = Color3.fromRGB(0,204,255),
-
- Increment = 1,
-
- ValueName = "WS",
-
- Callback = function(Value)
-
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-
- end    
-
-})
-
-PlayerTab:AddSlider({
-
- Name = "Jump Power",
-
- Min = 16,
-
- Max = 1000000000,
-
- Default = 5,
-
- Color = Color3.fromRGB(0,255,0),
-
- Increment = 1,
-
- ValueName = "Height",
-
- Callback = function(Value)
-
-  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-
- end    
+  	end    
 
 })
 
