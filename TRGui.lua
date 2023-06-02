@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-
+local game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V4 is loading.....", Name = "🌎TRGui BETA V4🌏", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
 
 -- Tabs
@@ -63,6 +63,15 @@ OrionLib:MakeNotification({
 
 })
 		
+OrionLib:MakeNotification({
+
+	Name = "Logged in!",	
+	Content = "Logged in as "..Player.Name..".",
+	Image = "rbxassetid://13468978031",
+	Time = 5
+
+})
+
 CreditsTab:AddParagraph("Credits: "," TRScripts | The Owner")
 
 coroutine.resume(NotificationCoroutine)
