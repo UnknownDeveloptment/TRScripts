@@ -36,7 +36,9 @@ MainTab:AddButton({
 
 	Name = "🇪🇸Español🇲🇽",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/TRGuiES.lua"))();
 
-  	end   }) 
+  	end  
+	
+	}) 
 		
 		OrionLib:MakeNotification({
 
@@ -49,6 +51,16 @@ MainTab:AddButton({
 	Time = 5
 
 }) 
+
+local CreditsTab = Window:MakeTab({
+
+	Name = "Credits",
+
+	Icon = "rbxassetid://13468978031",
+
+	PremiumOnly = false
+
+})
 
 CreditsTab:AddParagraph("Credits: "," TRScripts | The Owner")
 
