@@ -1,4 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({IntroText = "TRGui BETA V4 is loading.....", Name = "🌎TRGui BETA V4🌏", HidePremium = false, SaveConfig = true, ConfigFolder = "TRScripts"})
 
 -- Tabs
@@ -51,6 +52,16 @@ MainTab:AddButton({
 	Time = 5
 
 }) 
+
+OrionLib:MakeNotification({
+
+	Name = "Logged in!",	Content = "You are logged in as "..Player.Name.."!", 
+		
+	Image = "rbxassetid://13468978031",
+
+	Time = 5
+
+})
 
 local CreditsTab = Window:MakeTab({
 
