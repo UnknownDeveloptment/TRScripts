@@ -16,9 +16,17 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Build Tools",
+	Name = "Fly",
 
-	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))();
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Fly", true))();
+
+  	end    
+
+})
+
+MainTab:AddButton({
+
+	Name = "Teleport",	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/bZhByju1"))();
 
   	end    
 
