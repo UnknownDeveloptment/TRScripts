@@ -14,51 +14,19 @@ local MainTab = Window:MakeTab({
 
 -- Button
 
-PlayerTab:AddSlider({
+MainTab:AddButton({
 
- Name = "PaseoVelocidad",
+	Name = "Volar",	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/bZhByju1"))();
 
- Min = 16,
-
- Max = 1000000000,
-
- Default = 16,
-
- Color = Color3.fromRGB(0,204,255),
-
- Increment = 1,
-
- ValueName = "WS",
-
- Callback = function(Value)
-
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-
- end    
+  	end    
 
 })
 
-PlayerTab:AddSlider({
+MainTab:AddButton({
 
- Name = "Fuerza de salto",
+	Name = "Teletransportarse",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Fly"))();
 
- Min = 16,
-
- Max = 1000000000,
-
- Default = 5,
-
- Color = Color3.fromRGB(0,255,0),
-
- Increment = 1,
-
- ValueName = "Height",
-
- Callback = function(Value)
-
-  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-
- end    
+  	end    
 
 })
 
