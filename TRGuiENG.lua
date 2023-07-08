@@ -46,7 +46,7 @@ MainTab:AddButton({
 
 	Name = "Shiftlock",
 
-	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Shiftlock-Mobile-8892"))();
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
   	end    
 
