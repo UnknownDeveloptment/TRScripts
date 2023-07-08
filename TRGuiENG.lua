@@ -18,7 +18,7 @@ MainTab:AddButton({
 
 	Name = "Fly",
 
-	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Fly", true))();
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Fly.lua", true))();
 
   	end    
 
@@ -26,7 +26,7 @@ MainTab:AddButton({
 
 MainTab:AddButton({
 
-	Name = "Teleport",	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/bZhByju1"))();
+	Name = "Teleport",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Teleport.lua"))();
 
   	end    
 
