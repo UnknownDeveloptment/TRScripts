@@ -16,7 +16,7 @@ local MainTab = Window:MakeTab({
 
 MainTab:AddButton({
 
-	Name = "Volar",	Callback = function()   loadstring(game:HttpGet("https://pastebin.com/bZhByju1"))();
+	Name = "Volar",	Callback = function()   loadstring(game:HttpGet("https://raw.githubuserconcent.com/UnknownDeveloptment/TRScripts/main/Fly.lua"))();
 
   	end    
 
@@ -24,7 +24,7 @@ MainTab:AddButton({
 
 MainTab:AddButton({
 
-	Name = "Teletransportarse",	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownDeveloptment/TRScripts/main/Fly"))();
+	Name = "Teletransportarse",	Callback = function()   loadstring(game:HttpGet("https://raw.githubuserconcent.com/TRScripts/main/Teleport.lua"))();
 
   	end    
 
@@ -54,7 +54,7 @@ MainTab:AddButton({
 
 	Name = "el teclado",
 
-	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Pc-keyboard-script-not-mine-10934"))()
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
   	end    
 
