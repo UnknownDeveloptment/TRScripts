@@ -56,7 +56,7 @@ MainTab:AddButton({
 
 	Name = "Keyboard",
 
-	Callback = function()   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Pc-keyboard-script-not-mine-10934"))()
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
   	end    
 
